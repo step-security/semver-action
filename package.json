@@ -1,0 +1,32 @@
+{
+  "name": "semver-action",
+  "version": "1.11.0",
+  "description": "GitHub Action to calculate the next release version based conventional commits since latest tag",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/semver-action.git"
+  },
+  "author": "step-security",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/step-security/semver-action/issues"
+  },
+  "homepage": "https://github.com/step-security/semver-action#readme",
+  "dependencies": {
+    "@actions/core": "1.11.1",
+    "@actions/github": "6.0.1",
+    "@conventional-commits/parser": "0.4.1",
+    "axios": "1.13.6",
+    "lodash": "4.17.21",
+    "semver": "7.7.3"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.38.4",
+    "eslint": "9.38.0",
+    "neostandard": "0.12.2"
+  }
+}
