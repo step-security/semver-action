@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/semver-action",
+   "upstream_full_repo_name": "ietf-tools/semver-action",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v1.11.0",
+     "created_at": "2026-04-07T15:15:44Z",
+     "published_at": "2026-04-08T05:31:52Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
