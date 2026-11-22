@@ -1,5 +1,6 @@
 {
-  "name": "semver-action",
+  "name": "@step-security/semver-action",
+  "private": true,
   "version": "1.11.0",
   "description": "GitHub Action to calculate the next release version based conventional commits since latest tag",
   "main": "dist/index.js",
@@ -11,6 +12,7 @@
     "url": "git+https://github.com/step-security/semver-action.git"
   },
   "author": "step-security",
+  "publisher": "step-security",
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/step-security/semver-action/issues"
@@ -28,5 +30,9 @@
     "@vercel/ncc": "0.38.4",
     "eslint": "9.38.0",
     "neostandard": "0.12.2"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
   }
 }
